@@ -9,26 +9,6 @@
   <body>
     <!-- HERO / HEADER SECTION -->
     <header class="hero">
-      <!-- Top Right Floating 3D Simulation Badge -->
-      <div class="hero__top-bar">
-        <a href="./demo3d.html" class="badge-sim">
-          <svg
-            class="badge-sim__icon"
-            fill="none"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-8-4-8 4m16 0l-8 4m8-0v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
-            ></path>
-          </svg>
-          <span>金屬表面處理流程 3D 模擬</span>
-        </a>
-      </div>
-
       <!-- Center Hero Branding -->
       <div class="hero__branding">
         <svg
@@ -49,8 +29,80 @@
         <p class="hero__subtitle">專注於金屬製造與加工服務的領導者</p>
       </div>
 
-      <div></div>
+      <!-- Top Right Floating 3D Simulation Badge -->
+      <div class="hero__top-bar">
+        <a href="./demo3d.html" class="badge-sim">
+          <svg
+            class="badge-sim__icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-8-4-8 4m16 0l-8 4m8-0v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+            ></path>
+          </svg>
+          <span>金屬表面處理流程 3D 模擬</span>
+        </a>
+      </div>
     </header>
+
+    <!-- MAIN BUSINESS SERVICES SECTION -->
+    <section class="services-section">
+      <div class="services-container">
+        <h2 class="services__section-title">主要營業項目</h2>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card">
+            <h3 class="service-card__title">螺絲扣件與金屬組件製造</h3>
+            <div class="service-card__image-wrapper">
+              <img
+                src="/business-a.png"
+                alt="螺絲扣件與金屬組件"
+                class="service-card__img"
+              />
+            </div>
+            <p class="service-card__description">
+              擁有現場專業生產線與嚴謹的「脫脂、酸洗、水洗中和、低壓大電流電鍍鋅」四道標準前處理工序；結合裁切、沖孔與焊接客製化服務，確保角鐵具備極佳的塗層附著力與耐候抗腐蝕能力。
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <h3 class="service-card__title">角鐵加工與電鍍防鏽</h3>
+            <div class="service-card__image-wrapper">
+              <img
+                src="/business-b.png"
+                alt="角鐵加工與電鍍防鏽"
+                class="service-card__img"
+              />
+            </div>
+            <p class="service-card__description">
+              專營各式標準與客製化螺絲、螺帽、鉚釘及建築結構金屬組件製造。憑藉多年金屬加工經驗與穩定產能，為機械設備、倉儲架構及建築工程提供堅固耐用的核心金屬零組件。
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <h3 class="service-card__title">五金建材批發與貿易服務</h3>
+            <div class="service-card__image-wrapper">
+              <img
+                src="/business-c.png"
+                alt="五金建材批發與貿易服務"
+                class="service-card__img"
+              />
+            </div>
+            <p class="service-card__description">
+              服務涵蓋五金配件、建材金屬件與緊固件的大宗批發與經銷供應，並具備國際貿易進出口實力。無論是少量客製試作或大貨量產，皆能提供高效、穩定的供應鏈解決方案。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
     <!-- MAIN PROCESS STEPS SECTION -->
     <main class="main-content">
@@ -127,7 +179,24 @@
             <span class="footer__value">臺南市仁德區太子里太子四街7號</span>
           </div>
         </div>
+      </div>
 
+      <!-- EMBEDDED GOOGLE MAP SECTION -->
+      <div class="footer__map-container">
+        <iframe
+          title="興建詮有限公司地圖位置"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3387820120155!2d120.2504056!3d22.9894501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76b5251a356b%3A0xc0ee4e3698aa23f1!2zNzE3OTHlj7DkuK3kuIszOTHlj7DkuK3kuIs!5e0!3m2!1szh-TW!2stw!4v1710000000000"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+
+      <div class="footer__copyright-container">
         <div class="footer__copyright">
           &copy; 2026 興建詮有限公司. All rights reserved.
         </div>
