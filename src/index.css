@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 85svh;
-  padding: 2.5rem 3rem 4rem;
+  padding: 2.5rem 3rem 7rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
@@ -70,7 +70,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.6rem 1.4rem;
+  padding: 1rem 2rem;
   border-radius: 50px;
   border: 1px solid rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(10px);
