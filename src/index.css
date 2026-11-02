@@ -50,7 +50,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 85svh;
-  padding: 2.5rem 3rem 7rem;
+  padding: 5rem 3rem 7rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   background:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
