@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://netlify.app
+Sitemap: https://hccindustrial.netlify.app
