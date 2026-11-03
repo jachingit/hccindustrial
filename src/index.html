@@ -30,12 +30,12 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- 4. UI Styling, Theme, and Icons -->
-    <meta name="theme-color" content="#f4f5f7" />
+    <meta name="theme-color" content="#121212" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="preload" href="/plant.webp" as="image" type="image/webp" />
     <link rel="stylesheet" href="./index.css" />
 
-    <!-- 5. Structured Data / Schema (Place it here) -->
+    <!-- 5. Structured Data / Schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -83,7 +83,7 @@
           class="hero__logo"
           viewBox="0 0 100 100"
           fill="currentColor"
-          aria-label="興建詮 Logo"
+          aria-hidden="true"
         >
           <path d="M0 0 C 30 0, 50 20, 50 50 C 20 50, 0 30, 0 0 Z"></path>
           <path d="M100 0 C 70 0, 50 20, 50 50 C 80 50, 100 30, 100 0 Z"></path>
@@ -99,7 +99,7 @@
         </p>
       </div>
 
-      <!-- Top Right Floating 3D Simulation Badge -->
+      <!-- Centered Floating 3D Simulation Badge -->
       <div class="hero__top-bar">
         <a class="badge-sim" href="./demo3d.html">
           <svg
@@ -121,7 +121,7 @@
     </header>
 
     <!-- MAIN BUSINESS SERVICES SECTION -->
-    <section class="services-section">
+    <main class="services-section">
       <div class="services-container">
         <h2 class="services__section-title">主要營業項目</h2>
 
@@ -184,10 +184,10 @@
           </article>
         </div>
       </div>
-    </section>
+    </main>
 
     <!-- MAIN PROCESS STEPS SECTION -->
-    <main class="main-content">
+    <section class="main-content">
       <!-- Section Intro -->
       <div class="process-intro">
         <h2 class="services__section-title">四道標準電鍍前處理工序</h2>
@@ -197,47 +197,47 @@
       </div>
 
       <!-- Four Steps Grid -->
-      <div class="cards-grid">
+      <ol class="cards-grid">
         <!-- Step 1 -->
-        <article class="card">
+        <li class="card">
           <h3 class="card__title">強力脫脂</h3>
           <p class="card__description">
             有效清除鋼材表面油污，確保後續塗層附著力。
           </p>
-        </article>
+        </li>
 
         <!-- Step 2 -->
-        <article class="card">
+        <li class="card">
           <h3 class="card__title">精密酸洗</h3>
           <p class="card__description">
             利用高濃度酸洗液去除鋼材表面氧化皮與銹斑，還原金屬原色。
           </p>
-        </article>
+        </li>
 
         <!-- Step 3 -->
-        <article class="card">
+        <li class="card">
           <h3 class="card__title">多道水洗中和</h3>
           <p class="card__description">
             經過多道清水洗淨與中和處理，徹底洗淨殘留酸液，避免腐蝕金屬基體。
           </p>
-        </article>
+        </li>
 
         <!-- Step 4 -->
-        <article class="card">
+        <li class="card">
           <h3 class="card__title">防鏽電鍍處理</h3>
           <p class="card__description">
             以電鍍高純度鋅層或防鏽塗層，形成堅固防護層，提供長久有效防腐蝕保護。
           </p>
-        </article>
-      </div>
+        </li>
+      </ol>
 
       <!-- Bottom CTA -->
-      <div class="cta-container" id="3d-simulation">
+      <div class="cta-container">
         <a class="btn-cta" href="./demo3d.html">
-          金屬表面處理流程 3D 模擬 <span class="btn-cta__arrow">➔</span></a
+          金屬表面處理流程 3D 模擬 <span>➔</span></a
         >
       </div>
-    </main>
+    </section>
 
     <!-- FOOTER SECTION -->
     <footer class="footer">
@@ -273,9 +273,6 @@
         <iframe
           title="興建詮有限公司地圖位置"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3387820120155!2d120.2504056!3d22.9894501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76b5251a356b%3A0xc0ee4e3698aa23f1!2zNzE3OTHlj7DkuK3kuIszOTHlj7DkuK3kuIs!5e0!3m2!1szh-TW!2stw!4v1710000000000"
-          width="100%"
-          height="350"
-          style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

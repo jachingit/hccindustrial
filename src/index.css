@@ -101,7 +101,6 @@ body {
 .hero__branding {
   margin: auto;
   text-align: center;
-  padding: 3rem 1rem;
   max-width: 900px;
   display: flex;
   flex-direction: column;
@@ -252,6 +251,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-bottom: 3.5rem;
+  list-style: none;
 }
 
 .card {
